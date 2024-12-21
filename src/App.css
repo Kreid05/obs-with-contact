@@ -1,0 +1,93 @@
+/* Base imports */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Basic resets and styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 40px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 1.3rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links .active-link {
+  color: #c79b45; 
+  font-weight: 800;
+  border-bottom: 2px solid #c79b45; 
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-btn {
+  background-color: #c79b45;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  width: 100px;
+  margin-right: 20px;
+}
+
+.book-btn:hover {
+  background-color: #af8740;
+}
+
+.user-icon {
+  cursor: pointer;
+  color: #000; 
+  width: 50px;
+  height: 40px; /* Adjusted height */
+}
+
+.user-icon:hover {
+  color: #c79b45; 
+}

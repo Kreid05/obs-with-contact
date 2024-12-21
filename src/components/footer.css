@@ -1,0 +1,23 @@
+.footer {
+    width: 2419px;
+    height: 100px; 
+    background-color: #8c7547;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: -40px;
+  }
+  
+  .footer img {
+    max-width: 150px; 
+    height: auto;
+  }
+  
+  .footer p {
+    margin-top: 10px; 
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
